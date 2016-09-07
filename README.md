@@ -13,6 +13,6 @@ Journals detailing the work of individual group members are available below:
 
 ###[Trevor Vanderhoef]
 
-###[Jacob Pankey]
+###[Jacob Pankey](https://drive.google.com/open?id=1k2ezZWiedLUSGZnrOPsMOSYOCePhcGP449jAE24oG7g)
 
 ###[Mark Van Baren]
