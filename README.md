@@ -9,10 +9,10 @@ Our capstone project is a multiplayer video game that resembles the classic vide
 ## [Journals](https://drive.google.com/folderview?id=0By_qJUaBloL-T1RVTUFZQ1o3WlU&usp=sharing)
 Journals detailing the work of individual group members are available below:
 
-#[Matthew Hoffman](https://drive.google.com/open?id=1KrfcsN8Ud7JterrbeYxmvCfcwkMNy0g-Ohvjmbs0YLo)
+###[Matthew Hoffman](https://drive.google.com/open?id=1KrfcsN8Ud7JterrbeYxmvCfcwkMNy0g-Ohvjmbs0YLo)
 
-#[Trevor Vanderhoef]
+###[Trevor Vanderhoef]
 
-#[Jacob Pankey]
+###[Jacob Pankey]
 
-#[Mark Van Baren]
+###[Mark Van Baren]
