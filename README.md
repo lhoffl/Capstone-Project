@@ -11,7 +11,7 @@ Journals detailing the work of individual group members are available below:
 
 ###[Matthew Hoffman](https://drive.google.com/open?id=1KrfcsN8Ud7JterrbeYxmvCfcwkMNy0g-Ohvjmbs0YLo)
 
-###[Trevor Vanderhoef]
+###[Trevor Vanderhoef](https://docs.google.com/a/mail.gvsu.edu/document/d/1p5nhgjVDr4lmSvdh37ZBmpmJU0uqwjQCLABGsJ7l9IU/edit?usp=sharing)
 
 ###[Jacob Pankey](https://drive.google.com/open?id=1k2ezZWiedLUSGZnrOPsMOSYOCePhcGP449jAE24oG7g)
 
