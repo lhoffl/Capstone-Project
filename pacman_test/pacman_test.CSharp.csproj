@@ -73,6 +73,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PacmanMove.cs" />
+    <Compile Include="Assets\eatFruit.cs" />
+    <Compile Include="Assets\spawn_fruit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
