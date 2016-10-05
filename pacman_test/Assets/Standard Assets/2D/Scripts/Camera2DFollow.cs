@@ -33,6 +33,8 @@ namespace UnityStandardAssets._2D
 
             bool updateLookAheadTarget = Mathf.Abs(xMoveDelta) > lookAheadMoveThreshold;
 
+			if (target == null)
+				return;
             if (updateLookAheadTarget)
             {
                 m_LookAheadPos = lookAheadFactor*Vector3.right*Mathf.Sign(xMoveDelta);
@@ -48,6 +50,7 @@ namespace UnityStandardAssets._2D
             transform.position = newPos;
 
             m_LastTargetPosition = target.position;
+
         }
     }
 }
