@@ -26,8 +26,7 @@ public class GhostMove : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D co) {
-		if (co.name == "pacman")
-			Destroy(co.gameObject);
+		if (co.name == "pacman") Destroy(co.gameObject);
 		//decrease pacman's lives, show game over screen at this point
 	}
 }
