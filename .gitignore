@@ -1,22 +1,36 @@
- ##################
- # Unity ignores:
- #
- # !!! WARNING !!!
- #
- # … you MUST convert Unity to using Metafiles *before* you start using this
- #  .gitignore file, or you WILL lose data!
- #
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
  
- # OS X only:
- .DS_Store
- *.swp
- *.Trashes
+# ============================================= #
+# Visual Studio / MonoDevelop / Rider generated #
+# ============================================= #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+/.idea*/
  
- # All platforms:
- Library
- Temp
- *.csproj
- *.pidb
- *.unityproj
- *.sln
- *.userprefs
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+view raw
