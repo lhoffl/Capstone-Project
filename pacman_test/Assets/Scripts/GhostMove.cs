@@ -5,6 +5,9 @@ using System.Collections;
 public class GhostMove : MonoBehaviour {
 	public Transform[] waypoints;
 	int cur = 0;
+	public Vector3 spawnPoint;
+
+
 
 	public float speed = 0.3f;
 
@@ -26,7 +29,9 @@ public class GhostMove : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D co) {
-		if (co.name == "pacman") Destroy(co.gameObject);
+		if (co.name == "pacman") {
+			co.transform.position = spawnPoint;
+		}
 		//decrease pacman's lives, show game over screen at this point
 	}
 }
