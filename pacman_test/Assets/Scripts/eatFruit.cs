@@ -10,10 +10,9 @@ public class eatFruit : MonoBehaviour {
 	
     void OnTriggerEnter2D(Collider2D coll)
     {
-		if(coll.gameObject.name == "pacman")
-        {
-            cherry.SetActive(false);
-        }
+		if (coll.gameObject.name == "pacman" || coll.gameObject.name == "blinky") {
+			cherry.SetActive (false);
+		} 
     }
 	
 }
