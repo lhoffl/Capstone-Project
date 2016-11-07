@@ -18,9 +18,9 @@ Journals detailing the work of individual group members are available below:
 ###[Mark Van Baren](https://docs.google.com/document/d/1pr1rmpV0dvmGcvoL8KPMQhhEgucA_Cl91b9o-OIoTg0/edit?usp=sharing)
 
 ## Sprints
-The current sprint is Sprint 1. Reports for sprints can be found below.
+The current sprint is Sprint 3. Reports for sprints can be found below.
 
 ###[Sprint 1](https://docs.google.com/document/d/1zcxfZ-WjmZB95j56o3px9AIDl_cnNH6M75o--U4XHCY/edit?usp=sharing)
-###[Sprint 2]
-###[Sprint 3]
+###[Sprint 2](https://docs.google.com/document/d/1nPR8lxVH8VJc43JMvX3BnR9YzrNQS39lFFpaF9Q0bsw/edit?usp=sharing)
 ###[Sprint 4]
+###[Sprint 5]
