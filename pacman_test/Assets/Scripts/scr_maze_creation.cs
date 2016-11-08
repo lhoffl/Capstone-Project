@@ -4,9 +4,10 @@ using System.Collections;
 public class scr_maze_creation : MonoBehaviour {
 
 	//maze variables
-	public string maze = "111111111111111111111111111111111111111111111:100000000000000000000000000000000000000000001:101111000000000000000000000000000000000111101:101000000000000000000000000000000000000000101:101000000000000000000000000000000000000000101:101000000000000000000000000000000000000000101:101000000000000000000000000000000000000000101:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:100000000000000000000000000000000000000000001:111111111111111111111111111111111111111111111:";
+	public string maze = "";
 	public GameObject maze_block;
 	public GameObject pac_dot;
+	public GameObject super_pac_dot;
 	public GameObject[,] obj;
 	private int x_pos = 0;
     private int y_pos = 0;
@@ -86,26 +87,34 @@ public class scr_maze_creation : MonoBehaviour {
 			}
 		}
 
+		//reseting variables
+		y_pos = array_y_max*2;
+		j = array_y_max-1;
+
 		obj = new GameObject[array_x_max,array_y_max];
 		//read maze string and create maze
 		foreach(char c in maze){
 			//place block
 			if(c == '1'){
-				obj[i,j] = (GameObject)Instantiate(maze_block, new Vector3(x_pos, y_pos, 0), transform.rotation);
+				obj[i,j] = (GameObject)Instantiate(maze_block, new Vector3(x_pos, y_pos - 2, 0), transform.rotation);
 				i++;
 				x_pos += 2;
 			}else if(c == '0'){
-				obj[i,j] = (GameObject)Instantiate(pac_dot, new Vector3(x_pos + 1, y_pos + 1, 0), transform.rotation);
+				obj[i,j] = (GameObject)Instantiate(pac_dot, new Vector3(x_pos + 1, y_pos - 1, 0), transform.rotation);
+				i++;
+				x_pos += 2;
+			}else if(c == '2'){
+				obj[i,j] = (GameObject)Instantiate(super_pac_dot, new Vector3(x_pos + 1, y_pos - 1, 0), transform.rotation);
 				i++;
 				x_pos += 2;
 			}else if(c == ':'){
 				i=0;
-				j++;
+				j--;
 				x_pos = 0;
-				y_pos += 2;
+				y_pos -= 2;
 			}
 		}
-
+		
 		b = new int[8] {0,0,0,0,0,0,0,0};
 		
 		//update maze blocks
