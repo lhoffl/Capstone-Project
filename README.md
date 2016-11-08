@@ -21,6 +21,6 @@ Journals detailing the work of individual group members are available below:
 The current sprint is Sprint 1. Reports for sprints can be found below.
 
 ###[Sprint 1](https://docs.google.com/document/d/1zcxfZ-WjmZB95j56o3px9AIDl_cnNH6M75o--U4XHCY/edit?usp=sharing)
-###[Sprint 2]
+###[Sprint 2](https://docs.google.com/document/d/1nPR8lxVH8VJc43JMvX3BnR9YzrNQS39lFFpaF9Q0bsw/edit?usp=sharing)
 ###[Sprint 3]
 ###[Sprint 4]
