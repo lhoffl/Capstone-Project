@@ -374,7 +374,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 120ad589abaddcc40a6ee988e4a482f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cc4ed64163cf7504c92fa17ef519881d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -602,7 +602,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -653,53 +653,53 @@ MonoBehaviour:
   super_pac_dot: {fileID: 425173004}
   b: 
   sr: {fileID: 0}
-  parts_0: {fileID: 21300000, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_1: {fileID: 21300002, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_2: {fileID: 21300004, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_3: {fileID: 21300006, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_4: {fileID: 21300008, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_5: {fileID: 21300010, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_6: {fileID: 21300012, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_7: {fileID: 21300014, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_8: {fileID: 21300016, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_9: {fileID: 21300018, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_10: {fileID: 21300020, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_11: {fileID: 21300022, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_12: {fileID: 21300024, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_13: {fileID: 21300026, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_14: {fileID: 21300028, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_15: {fileID: 21300030, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_16: {fileID: 21300032, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_17: {fileID: 21300034, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_18: {fileID: 21300036, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_19: {fileID: 21300038, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_20: {fileID: 21300040, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_21: {fileID: 21300042, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_22: {fileID: 21300044, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_23: {fileID: 21300046, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_24: {fileID: 21300048, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_25: {fileID: 21300050, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_26: {fileID: 21300052, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_27: {fileID: 21300054, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_28: {fileID: 21300056, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_29: {fileID: 21300058, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_30: {fileID: 21300060, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_31: {fileID: 21300062, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_32: {fileID: 21300064, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_33: {fileID: 21300066, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_34: {fileID: 21300068, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_35: {fileID: 21300070, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_36: {fileID: 21300072, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_37: {fileID: 21300074, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_38: {fileID: 21300076, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_39: {fileID: 21300078, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_40: {fileID: 21300080, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_41: {fileID: 21300082, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_42: {fileID: 21300084, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_43: {fileID: 21300086, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_44: {fileID: 21300088, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_45: {fileID: 21300090, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
-  parts_46: {fileID: 21300000, guid: 2ec40624fe243a74db080433d24ecec8, type: 3}
+  parts_0: {fileID: 21300000, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_1: {fileID: 21300002, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_2: {fileID: 21300004, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_3: {fileID: 21300006, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_4: {fileID: 21300008, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_5: {fileID: 21300010, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_6: {fileID: 21300012, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_7: {fileID: 21300014, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_8: {fileID: 21300016, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_9: {fileID: 21300018, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_10: {fileID: 21300020, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_11: {fileID: 21300022, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_12: {fileID: 21300024, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_13: {fileID: 21300026, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_14: {fileID: 21300028, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_15: {fileID: 21300030, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_16: {fileID: 21300032, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_17: {fileID: 21300034, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_18: {fileID: 21300036, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_19: {fileID: 21300038, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_20: {fileID: 21300040, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_21: {fileID: 21300042, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_22: {fileID: 21300044, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_23: {fileID: 21300046, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_24: {fileID: 21300048, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_25: {fileID: 21300050, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_26: {fileID: 21300052, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_27: {fileID: 21300054, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_28: {fileID: 21300056, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_29: {fileID: 21300058, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_30: {fileID: 21300060, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_31: {fileID: 21300062, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_32: {fileID: 21300064, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_33: {fileID: 21300066, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_34: {fileID: 21300068, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_35: {fileID: 21300070, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_36: {fileID: 21300072, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_37: {fileID: 21300074, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_38: {fileID: 21300076, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_39: {fileID: 21300078, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_40: {fileID: 21300080, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_41: {fileID: 21300082, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_42: {fileID: 21300084, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_43: {fileID: 21300086, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_44: {fileID: 21300088, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_45: {fileID: 21300090, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
+  parts_46: {fileID: 21300000, guid: 21144b152bc958348a1d2f50103f796a, type: 3}
 --- !u!1 &589772690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1217,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6be80908eee54fa45bacfd5ab40a2c18, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4f428ec819a79f041af780316333f7ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
