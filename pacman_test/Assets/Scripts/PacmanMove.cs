@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
-public class PacmanMove : MonoBehaviour
+public class PacmanMove : NetworkBehaviour
 {
     public float speed = 0.3f;
     Vector2 dest = Vector2.zero;
@@ -17,30 +18,34 @@ public class PacmanMove : MonoBehaviour
     {
         count = 0;
         dest = transform.position;
-        setCountText ();
-        winText.text = "";
+       // setCountText ();
+       // winText.text = "";
     }
 
     void OnTriggerEnter2D(Collider2D co)
     {
         if (co.gameObject.CompareTag("pac_dot")){
-            Destroy (co.gameObject);
+			co.gameObject.SetActive(false);
 
             // This is the place to increment score if we wanted to
-            count++;
-            setCountText ();
+           // count++;
+           // setCountText ();
         }
     }
 
-    void setCountText(){
-
-        countText.text = ("Points: " + count.ToString ());
-        if (count >= SCORE_LIMIT)
-            winText.text = "You Won!";
-    }
+//    void setCountText(){
+//
+//        countText.text = ("Points: " + count.ToString ());
+//        if (count >= SCORE_LIMIT)
+//            winText.text = "You Won!";
+//    }
 
     void FixedUpdate()
     {   
+		if (!isLocalPlayer)
+			return;
+
+
         Vector2 p = Vector2.MoveTowards(transform.position, dest, speed);
         GetComponent<Rigidbody2D>().MovePosition(p);
 
@@ -90,4 +95,9 @@ public class PacmanMove : MonoBehaviour
     {
         return transform.position;
     }
+
+//	public override void OnStartLocalPlayer()
+//	{
+//		gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
+//	}
 }
