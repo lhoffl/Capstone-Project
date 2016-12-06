@@ -8,14 +8,17 @@ public class scr_maze_creation : MonoBehaviour {
 	public GameObject maze_block;
 	public GameObject pac_dot;
 	public GameObject super_pac_dot;
+	public GameObject maze_door_horizontal;
+	public GameObject maze_door_vertical;
 	public GameObject[,] obj;
+	public GameObject camera;
 	private int x_pos = 0;
     private int y_pos = 0;
     private int i = 0;
     private int j = 0;
-    private int array_x_max = 0;
-    private int array_y_max = 0;
-    public int[] b;
+    public int array_x_max = 0;
+    public int array_y_max = 0;
+    private int[] b;
 
     //sprite variables
     public SpriteRenderer sr;
@@ -65,7 +68,6 @@ public class scr_maze_creation : MonoBehaviour {
 	public Sprite parts_43;
 	public Sprite parts_44;
 	public Sprite parts_45;
-	public Sprite parts_46;
 
 	// Use this for initialization
 	void Start () {
@@ -87,6 +89,9 @@ public class scr_maze_creation : MonoBehaviour {
 			}
 		}
 
+		//reset camera position
+		camera.transform.position = new Vector3(array_x_max,array_y_max,-60);
+
 		//reseting variables
 		y_pos = array_y_max*2;
 		j = array_y_max-1;
@@ -105,6 +110,14 @@ public class scr_maze_creation : MonoBehaviour {
 				x_pos += 2;
 			}else if(c == '2'){
 				obj[i,j] = (GameObject)Instantiate(super_pac_dot, new Vector3(x_pos + 1, y_pos - 1, 0), transform.rotation);
+				i++;
+				x_pos += 2;
+			}else if(c == 'h'){
+				obj[i,j] = (GameObject)Instantiate(maze_door_horizontal, new Vector3(x_pos, y_pos - 2, 0), transform.rotation);
+				i++;
+				x_pos += 2;
+			}else if(c == 'v'){
+				obj[i,j] = (GameObject)Instantiate(maze_door_vertical, new Vector3(x_pos, y_pos - 2, 0), transform.rotation);
 				i++;
 				x_pos += 2;
 			}else if(c == ':'){
@@ -311,7 +324,7 @@ public class scr_maze_creation : MonoBehaviour {
 					}
 					//blocks all around
 					else if(b[0] == 1 && b[1] == 1 && b[2] == 1 && b[3] == 1 && b[4] == 1 && b[5] == 1 && b[6] == 1 && b[7] == 1){
-						sr.sprite = parts_46;
+						sr.enabled = false;
 					}
 				}
 			}
@@ -322,4 +335,9 @@ public class scr_maze_creation : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	// awake function
+	void Awake() {
+        Application.targetFrameRate = 200;
+    }
 }

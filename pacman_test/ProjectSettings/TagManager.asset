@@ -6,6 +6,11 @@ TagManager:
   tags:
   - pacman
   - maze
+  - pac_dot
+  - Block
+  - super_pac_dot
+  - pm_cherry
+  - blinky
   layers:
   - Default
   - TransparentFX

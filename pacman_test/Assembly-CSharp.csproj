@@ -45,19 +45,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ClydeMove.cs" />
+     <Compile Include="Assets\GhostKilla.cs" />
+     <Compile Include="Assets\PinkyMove.cs" />
      <Compile Include="Assets\Scripts\BlinkyMove.cs" />
      <Compile Include="Assets\Scripts\GhostCollider.cs" />
      <Compile Include="Assets\Scripts\GhostMove.cs" />
      <Compile Include="Assets\Scripts\Pacdot.cs" />
      <Compile Include="Assets\Scripts\PacmanMove.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Scoreboard.cs" />
+     <Compile Include="Assets\Scripts\SetupLocalPlayer.cs" />
      <Compile Include="Assets\Scripts\eatFruit.cs" />
      <Compile Include="Assets\Scripts\pac_dot.cs" />
      <Compile Include="Assets\Scripts\scr_maze_block.cs" />
      <Compile Include="Assets\Scripts\scr_maze_creation.cs" />
+     <Compile Include="Assets\Scripts\scr_maze_door.cs" />
      <Compile Include="Assets\Scripts\scr_pac_dot_creation.cs" />
      <Compile Include="Assets\Scripts\scr_pacman_pac_dot_collider.cs" />
      <Compile Include="Assets\Scripts\spawnFruit.cs" />
+     <Compile Include="Assets\fruitMove.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
