@@ -1,6 +1,7 @@
 # CS 467 Capstone-Project : Multiplayer Pacman 
 ### Created by Trevor, Mark, Matt and Jacob
 
+## [Final Report](https://docs.google.com/document/d/1b3FG-2ckUYVraMBL8sHfvyumEMr21ut4B7z6GUfaBmI/edit?usp=sharing)
 ## [Backlog](https://docs.google.com/spreadsheets/d/1DO89DcbxZEDntXi4WkBiVGwZVSokS-HG-yBSV7zPNXM/edit?usp=sharing)
 
 ## General Overview
@@ -17,10 +18,3 @@ Journals detailing the work of individual group members are available below:
 
 ###[Mark Van Baren](https://docs.google.com/document/d/1pr1rmpV0dvmGcvoL8KPMQhhEgucA_Cl91b9o-OIoTg0/edit?usp=sharing)
 
-## Sprints
-The current sprint is Sprint 1. Reports for sprints can be found below.
-
-###[Sprint 1](https://docs.google.com/document/d/1zcxfZ-WjmZB95j56o3px9AIDl_cnNH6M75o--U4XHCY/edit?usp=sharing)
-###[Sprint 2](https://docs.google.com/document/d/1nPR8lxVH8VJc43JMvX3BnR9YzrNQS39lFFpaF9Q0bsw/edit?usp=sharing)
-###[Sprint 3]
-###[Sprint 4]
